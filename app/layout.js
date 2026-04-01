@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Clarity App",
-  description: "Coded by Umer Ijaz",
+  description: "Coded by Umer I",
 };
 
 export default function RootLayout({ children }) {
