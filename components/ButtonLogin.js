@@ -4,7 +4,7 @@ const ButtonLogin = ({ isLoggedIn, name }) => {
   if (isLoggedIn) {
     return (
       <Link href="/dashboard" className="btn btn-primary">
-        <p>Welcome back {name}</p>
+        <p>Hallo {name}</p>
       </Link>
     );
   }

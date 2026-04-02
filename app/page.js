@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main>
       <section className="bg-base-200 flex justify-between items-center relative py-4 px-8">
-        <div>Clarity</div>
-        <div className=" max-md:hidden absolute left-1/2 -translate-x-1/2 flex gap-6 space-x-4">
+        <div>UserTalk</div>
+        <div className=" max-mdhidden flex gap-6">
           <a className="link link-primary" href="/pricing">
             Pricing
           </a>
@@ -16,7 +16,7 @@ export default function Home() {
             FAQ
           </a>
         </div>
-        <ButtonLogin isLoggedIn={isLoggedIn} name={name} />
+        <ButtonLogin isLﬁoggedIn={isLoggedIn} name={name} />
       </section>
 
       <section className="px-8 text-center py-32 max-w-3xl mx-auto">
